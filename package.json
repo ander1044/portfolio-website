@@ -4,7 +4,9 @@
 	"homepage": "https://ander1044.github.io/portfolio-website",
 	"type": "module",
 	"scripts": {
-		"dev": "react-router dev",
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
 		"typecheck": "react-router typegen && tsc --noEmit"
 	},
 	"dependencies": {
